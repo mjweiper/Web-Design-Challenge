@@ -6,7 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Cloudiness</title>
+  <style>
 
+    .Test {
+      font-size: large;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #004080;
+    }
+
+    .Textwrap {
+            float: left;
+            margin: 10px;
+    }
+  
+    .myDiv {
+      float: left;
+      padding: 5px;
+    }
+
+    .myDiv2 {
+      float: right;
+      padding: 5px;
+    }
+      
+    .Fontsize {
+        font-size: larger;
+    }
+
+  </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!--<link rel="stylesheet" href="style.css"> -->
@@ -47,6 +74,27 @@
           </ul>
       </div><!-- /.container-fluid -->
     </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        
+        <div class="col-md-5">
+          <div class="Test">
+            <h2>Latitude vs. Cloudiness</h2>
+          </div>
+          <div class="Fontsize">
+            <p>Similarly to the humidity plot, latitude does not have the biggest effect on cloudiness for cities across the globe.
+              Looking at how dispersed the data is we can determine there are probably bigger factors that contribute to a cities percent cloudiness (Not very significant).
+
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="Resources/assets\images/Fig3.png" alt="Summary Picture" style="width:600px;height:450px;">
+        </div>
+        
+
 
   </body>
 </html>

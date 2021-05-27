@@ -5,8 +5,35 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Wind Speed</title>
+    <title>Windspeed</title>
+  <style>
 
+    .Test {
+      font-size: large;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #004080;
+    }
+
+    .Textwrap {
+            float: left;
+            margin: 10px;
+    }
+  
+    .myDiv {
+      float: left;
+      padding: 5px;
+    }
+
+    .myDiv2 {
+      float: right;
+      padding: 5px;
+    }
+      
+    .Fontsize {
+        font-size: larger;
+    }
+
+  </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!--<link rel="stylesheet" href="style.css"> -->
@@ -47,6 +74,28 @@
           </ul>
       </div><!-- /.container-fluid -->
     </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        
+        <div class="col-md-5">
+          <div class="Test">
+            <h2>Latitude vs. Wind Speed</h2>
+          </div>
+          <div class="Fontsize">
+            <p>This plot shows us city latitudes relative to the percent wind speed for 1/5/17. Looking over the plot
+              I believe there is some significance between the two as it seems that the higher wind speeds are close to the south pole.
+              Once again I am sure there are other factors to this, but I feel like we can make a good case latitude is a primary trigger
+              for wind speed.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="Resources/assets\images/Fig4.png" alt="Summary Picture" style="width:600px;height:450px;">
+        </div>
+
+        
 
   </body>
 </html>

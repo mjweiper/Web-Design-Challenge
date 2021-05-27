@@ -6,7 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Max Temperature</title>
+  <style>
 
+    .Test {
+      font-size: large;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #004080;
+    }
+
+    .Textwrap {
+            float: left;
+            margin: 10px;
+    }
+  
+    .myDiv {
+      float: left;
+      padding: 5px;
+    }
+
+    .myDiv2 {
+      float: right;
+      padding: 5px;
+    }
+      
+    .Fontsize {
+        font-size: larger;
+    }
+
+  </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!--<link rel="stylesheet" href="style.css"> -->
@@ -47,6 +74,27 @@
           </ul>
       </div><!-- /.container-fluid -->
     </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        
+        <div class="col-md-5">
+          <div class="Test">
+            <h2>Latitude vs. Max Temperature</h2>
+          </div>
+          <div class="Fontsize">
+            <p>The significance of this scatterplot is showing that clearly Latitude has an effect on Max Temp.
+              For this specific day (1/15/17), we see that cities that are around the equator on average are showing the highest 
+              temperatures, and as we move further away from the equator towards both poles that average temperatures start to decline.
+              Thus, showing the bell like curve in the visual.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="Resources/assets\images/Fig1.png" alt="Summary Picture" style="width:600px;height:450px;">
+        </div>
+        
 
   </body>
 </html>

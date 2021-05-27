@@ -6,7 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>Humidity</title>
+  <style>
 
+    .Test {
+      font-size: large;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+      color: #004080;
+    }
+
+    .Textwrap {
+            float: left;
+            margin: 10px;
+    }
+  
+    .myDiv {
+      float: left;
+      padding: 5px;
+    }
+
+    .myDiv2 {
+      float: right;
+      padding: 5px;
+    }
+      
+    .Fontsize {
+        font-size: larger;
+    }
+
+  </style>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <!--<link rel="stylesheet" href="style.css"> -->
@@ -47,6 +74,28 @@
           </ul>
       </div><!-- /.container-fluid -->
     </nav>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1"></div>
+        
+        <div class="col-md-5">
+          <div class="Test">
+            <h2>Latitude vs. Humidity</h2>
+          </div>
+          <div class="Fontsize">
+            <p>In looking at this visual I think we can determine latitude is not the biggest determinent in regards to humidity.
+              I do believe temperature is a factor with humidity, but I think we need to think about the climates of this city and how much moisture they get.
+              Places that tend to get more rain I feel like have more humidity, but I am no scientist and that is just a honest observation. So I wish we could compare 
+              Humidity vs. Rainfall and see how that plot would look.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="Resources/assets\images/Fig2.png" alt="Summary Picture" style="width:600px;height:450px;">
+        </div>
+
+        
 
   </body>
 </html>
