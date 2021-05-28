@@ -1,0 +1,30 @@
+
+  
+  /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+  @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    /* Giving our navbar some padding and a background color */
+    .navbar {
+        padding: 10px;
+        background: #9fc0fd;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: larger;
+    }
+  
+    .container-fluid {
+        
+        height: 28px;
+
+    }
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
+  
